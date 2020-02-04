@@ -1,0 +1,178 @@
+#grid-container {
+	width: 1920px;
+	height: 1080px;
+	background: pink;
+	position: relative;
+}
+
+#run-info-container {
+	background: red;
+	height: 60px;
+}
+
+#run-info-text {
+	text-align: center;
+}
+
+
+#gameplay-area-container {
+	height: 720px;
+	background: orange;
+}
+
+#bottom-area-container {
+	height: 300px;
+	background: yellow;
+}
+
+#bottom-area-info {
+	height: 150px;
+	background: pink;
+	display: table;
+}
+
+#bottom-area-runner-one,
+#bottom-area-casters,
+#bottom-area-runner-two {
+	width: 550px;
+	height: 150px;
+	background: brown;
+	display: inline-block;
+}
+
+#bottom-area-row {
+	display: table;
+}
+
+#bottom-area-spacer,
+#bottom-area-spacer-caster {
+	height: 4px;
+	background: white;
+}
+
+#runner-one-platform,
+#runner-two-platform,
+#runner-one-timer-icon,
+#runner-two-timer-icon,
+#runner-one-score-icon,
+#runner-two-score-icon,
+#runner-one-score,
+#runner-two-score,
+#caster-one-icon,
+#caster-two-icon {
+	width: 73px;
+	height: 73px;
+}
+
+#runner-one-platform,
+#runner-two-platform,
+#runner-one-timer-icon,
+#runner-two-timer-icon,
+#runner-one-timer-spacer,
+#runner-two-timer-spacer,
+#runner-one-score-icon,
+#runner-two-score-icon,
+#runner-one-score,
+#runner-two-score,
+#runner-one-username,
+#runner-two-username,
+#caster-one-icon,
+#caster-two-icon,
+#caster-one-username,
+#caster-two-username {
+	display: table-cell;	
+}
+
+#runner-one-platform,
+#runner-two-platform,
+#runner-one-timer-icon,
+#runner-two-timer-icon,
+#runner-one-score-icon,
+#runner-two-score-icon,
+#caster-one-icon,
+#caster-two-icon {
+	vertical-align: middle;
+}
+
+#runner-one-username,
+#runner-two-username,
+#caster-one-username,
+#caster-two-username {
+	width: 477px;
+}
+
+#runner-one-username,
+#runner-two-username,
+#caster-one-username,
+#caster-two-username,
+#runner-one-score,
+#runner-two-score {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24pt;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+#runner-one-timer-spacer,
+#runner-two-timer-spacer {
+	width: 331px;
+}
+
+#spacer {
+	width: 136px;
+	height: 150px;
+	background: green;
+	display: table-cell;
+}
+
+#bottom-area-ads {
+	height: 150px;
+}
+
+img {
+	max-height: 50px;
+	display: block;
+	margin: auto;
+}
+
+
+
+.classTwo {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#runner-one-platform,
+#runner-two-platform {
+	background: blue;
+}
+
+#runner-one-timer-icon,
+#runner-two-timer-icon {
+	background: red;
+}
+
+#runner-one-score-icon,
+#runner-two-score-icon {
+	background: grey;
+}
+
+#runner-one-score,
+#runner-two-score {
+	background: pink;
+}
+
+#caster-one-icon,
+#caster-two-icon {
+	background: cyan;
+}
