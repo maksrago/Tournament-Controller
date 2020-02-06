@@ -13,6 +13,9 @@ Tournament Controller is a project designed to provide a simple GUI for stream o
   After installing Python, simply run:
   * `pip install bs4`
   * `pip install tkinter` (for some systems) 
+  
+  ### Running Tournament Controller
+  * You can enter the directory location of the Tournament Controller program and simply type `python tournament_controller.py` or if you're on Windows you can use `run.bat`
 
 ## Author
 * **Maks Rago** - twitch.tv/im663/
