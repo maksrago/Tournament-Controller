@@ -25,6 +25,7 @@ def vp_start_gui():
     '''Starting point when module is the main routine.'''
     global val, w, root
     root = tk.Tk()
+    root.iconbitmap('favicon.ico')
     tournament_layout_support.set_Tk_var()
     top = tournamentControlPanel (root)
     tournament_layout_support.init(root, top)
